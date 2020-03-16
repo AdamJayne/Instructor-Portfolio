@@ -1,0 +1,212 @@
+.home-banner {
+  display: flex;
+  height: 600px;
+  background-color: black;
+}
+
+.innerBox {
+  height: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  width: 50%;
+}
+
+.home-intro-textbox {
+  max-width: 500px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.home-intro-textbox h1 {
+  font-size: 2.6em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.home-image {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-content: flex-end;
+}
+
+.my-face {
+  height: 80%;
+  width: 80%;
+  background: url('../images/AdamJayne2.jpg') no-repeat;
+  background-position: top;
+  background-size: cover;
+  max-width: 500px;
+  margin: auto;
+}
+
+#aboutMe {
+  margin-top: 45px;
+}
+
+@media (max-width: 1000px) {
+
+  .home-image {
+    padding: 15px;
+  }
+
+  .my-face {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .innerBox {
+    width: 800px;
+  }
+
+  .about-me {
+    width: 800px;
+    margin: auto;
+  }
+  
+}
+
+@media (min-width: 500px) {
+  
+  .home-intro-textbox h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  .about-me {
+    margin-top: 300px;
+  }
+
+  .about-hr {
+    width: 110px;
+    text-align: left;
+    margin: 16px 0;
+  }
+
+}
+
+@media (min-width: 815px) {
+
+  .home-banner {
+    margin-top: 60px;
+  }
+
+  .home-intro-textbox h1 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .home-img {
+    height: 600px;
+  }
+
+  .about-me {
+    margin-top: 300px;
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+  .home-banner {
+    height: 100vh;
+    margin: 0;
+    transform: none;
+  }
+
+  .innerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .home-intro {
+    width: 100%;
+    height: 50%;
+  }
+
+  .home-image {
+    width: 100%;
+    height: 50%;
+  }
+
+  .home-intro-textbox {
+    width: 100%;
+  }
+
+  .home-intro-textbox h1 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .my-face {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+
+  .my-face::after {
+    content: '';
+    position: relative;
+    left: 42%;
+    top: 107%;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 16px solid rgba(255, 255, 255, 1);
+    clear: both;
+  }
+
+  .after-box {
+    height: 30px;
+  }
+
+  svg {
+    width: 100%;
+    height: 25px;
+  }
+
+  .about-me {
+    padding: 30px;
+  }
+
+  .about-hr {
+    width: 110px;
+    text-align: left;
+    margin: 16px 0;
+  }
+
+  .about-content {
+    line-height: 1.5em;
+    font-size: 1.2em;
+  }
+
+}

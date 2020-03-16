@@ -1,0 +1,23 @@
+
+.curriculum-image {
+  background: url('../images/curriculum.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.curriculum-section {
+  padding: 30px;
+}
+
+#finalParagraph {
+  margin-top: 16px;
+}
+
+#manager-section {
+  margin-top: 30px;
+}
+
+@media(min-width: 800px) {
+  #manager-section {
+    margin-top: 50px;
+  }
+}

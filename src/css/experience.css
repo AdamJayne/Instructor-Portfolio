@@ -1,0 +1,72 @@
+
+#javascriptImage {
+  background: url('../images/javascript.png') no-repeat;
+  background-position: center;
+  background-size: 88%;
+}
+
+#pythonImage {
+  background: url('../images/python.svg.png') no-repeat;
+  background-position: center;
+  background-size: 88%;
+}
+
+#swiftImage {
+  background: url('../images/swift.png') no-repeat;
+  background-position: center;
+  background-size: 88%;
+}
+
+.language-item {
+  margin-top: 30px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.experience-image {
+  background: url('../images/experience.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#linkedin {
+  width: 100%;
+  height: 100%;
+  background: url('../images/linkedin-icon-2.svg') no-repeat;
+  background-position: center;
+  background-size: 104%;
+}
+
+#github {
+  width: 100%;
+  height: 100%;
+  background: url('../images/github-1.svg') no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+
+@media(min-width: 800px) {
+
+  .language-item {
+    max-width: 30%;
+  }
+}
