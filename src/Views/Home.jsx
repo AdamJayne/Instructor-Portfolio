@@ -10,7 +10,7 @@ const Home = () => {
                         <div className="home-intro-textbox">
                             <h1>Hello there!</h1>
                             <h1>My name is Adam Jayne</h1>
-                            <h1>I am an Instructor at Eleven Fifty Academy</h1>
+                            <h1>I am a Staff Instructor at Eleven Fifty Academy</h1>
                         </div>
                     </div>
                     <div className="home-image">
