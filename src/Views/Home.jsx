@@ -30,10 +30,7 @@ const Home = () => {
                     </h1>
                     <hr className="about-hr" />
                     <p className="about-content">
-                        Growing up in a small town, I always had my hands on a keyboard, even if I wasn't supposed to.
-                        With my grandfather's guidance, I helped manage a herd of Angus cattle, even going as far as winning Champion Angus Heifer at my county fair.
-                        After giving college a try, and discovering it didn't fit my learning style, I stumbled upon Eleven Fifty Academy through family.
-                        12 weeks, and a year and a half of working in the industry later, I came back to the school to become an instructor.
+                        Growing up in a small town, I always had my hands on a keyboard, even if I wasn’t supposed to. My grandfather and I also managed a herd of Angus cattle, which eventually won the prestigious Champion Angus Heifer at a local county fair. After giving college a try and discovering it didn’t fit my learning style, I found Eleven Fifty Academy. Twelve weeks post-graduation, and 18 months of working in the industry, I came back to school to become an instructor.
                     </p>
                 </div>
             </section>
